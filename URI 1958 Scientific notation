@@ -1,0 +1,13 @@
+package URIonlineJudge;
+import java.util.Scanner;
+
+public class URI1958 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        double num = in.nextDouble() ;
+        if(num>=0) System.out.print("+");
+        System.out.println(String.format("%.4E",num));
+        
+    }
+}
